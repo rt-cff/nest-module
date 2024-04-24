@@ -18,5 +18,12 @@
   "exports": {
     ".": "./dist/index.js",
     "./health": "./dist/health/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "types": [
+        "./dist/index.d.ts"
+      ]
+    }
   }
 }
