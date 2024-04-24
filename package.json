@@ -4,8 +4,7 @@
   "description": "",
   "main": "./",
   "scripts": {
-    "build": "npx tsc",
-    "postinstall": "npx tsc",
+    "postinstall": "npx tsc -",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,5 +14,9 @@
   },
   "dependencies": {
     "@nestjs/common": "^10.3.8"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./health": "./dist/health/index.js"
   }
 }
