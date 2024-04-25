@@ -12,8 +12,9 @@
   "devDependencies": {
     "typescript": "^5.4.5"
   },
-  "dependencies": {
-    "@nestjs/common": "^10.3.8"
+  "peerDependencies": {
+    "@nestjs/common": "^10.3.8",
+    "@nestjs/config": "^3.2.2"
   },
   "exports": {
     ".": "./dist/index.js",
